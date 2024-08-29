@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu do Site</title>
+</head>
+<body>
+
+    <h1>Bem Vindo!</h1>
+
+    <form method="POST" action="/">
+        {{ form.csrf_token }}
+
+        {{ form.nome.label }} {{ form.nome(size=20) }} <br>
+        {{ form.email.label }} {{ form.email }} <br>
+
+        {{ form.senha.label }} {{ form.senha }} <br>
+        {{ form.confirmarSenha.label }} {{ form.confirmarSenha }} <br>
+
+        {{ form.btn }}
+        <input type="submit" value="Go">
+    </form>
+
+    {% for i in range(10) %}
+        aaa {{ i }} <br>
+    {% endfor %}
+
+</body>
+</html>
