@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu do Site</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
 </head>
 <body>
 
     <h1>Bem Vindo!</h1>
 
-    <form method="POST" action="/">
-        {{ form.csrf_token }}
+    <div class="Base">
+        <form method="POST" action="/">
+            {{ form.csrf_token }}
+    
+            {{ form.nome.label }} {{ form.nome(size=20, placeholder="Digite seu nome") }} <br>
+            {{ form.email.label }} {{ form.email(placeholder="Digite seu email") }} <br>
+    
+            {{ form.senha.label }} {{ form.senha(placeholder="Digite sua senha") }} <br>
+            {{ form.confirmarSenha.label }} {{ form.confirmarSenha(placeholder="Confirme sua senha") }} <br>
+    
+            {{ form.btn }}
+            <input type="submit" value="Go">
+        </form>
+    
+        <div class="Texto-Simples">
+            <h3>Texto Simples</h3>
+            {% for i in range(10) %}
+                <p>aaa {{ i }}</p> <br>
+            {% endfor %}
+        </div>
+    </div>
 
-        {{ form.nome.label }} {{ form.nome(size=20) }} <br>
-        {{ form.email.label }} {{ form.email }} <br>
 
-        {{ form.senha.label }} {{ form.senha }} <br>
-        {{ form.confirmarSenha.label }} {{ form.confirmarSenha }} <br>
-
-        {{ form.btn }}
-        <input type="submit" value="Go">
-    </form>
-
-    {% for i in range(10) %}
-        aaa {{ i }} <br>
-    {% endfor %}
 
 </body>
 </html>

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.Base {
+    width: 350px;
+    margin: auto;
+}
+
+form {
+    font-family: Candara;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="submit"], button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+.Texto-Simples{
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Texto-Simples h3 {
+    padding-top: 10px;
+}
+
+.Texto-Simples p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
