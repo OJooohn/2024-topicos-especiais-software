@@ -1,0 +1,5 @@
+100 Maria 24.93
+200 Dayane 33.33
+300 John 17.43
+400 Thiago 21.45
+500 Joaozinho 26.37
