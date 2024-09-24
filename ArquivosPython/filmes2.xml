@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <row>
+    <index>0</index>
+    <id>1</id>
+    <titulo>O Rei Leão</titulo>
+    <ano>1994</ano>
+    <diretor>Roger Allers</diretor>
+    <arrecadacao>968.5</arrecadacao>
+    <nota>10.0</nota>
+  </row>
+  <row>
+    <index>1</index>
+    <id>2</id>
+    <titulo>A Bela e a Fera</titulo>
+    <ano>1991</ano>
+    <diretor>Gary Trousdale</diretor>
+    <arrecadacao>440.1</arrecadacao>
+    <nota>9.0</nota>
+  </row>
+  <row>
+    <index>2</index>
+    <id>3</id>
+    <titulo>Frozen</titulo>
+    <ano>2013</ano>
+    <diretor>Jennifer Lee</diretor>
+    <arrecadacao>1300.0</arrecadacao>
+    <nota>8.0</nota>
+  </row>
+  <row>
+    <index>3</index>
+    <id>4</id>
+    <titulo>Aladdin</titulo>
+    <ano>1992</ano>
+    <diretor>Ron Clements</diretor>
+    <arrecadacao>504.1</arrecadacao>
+    <nota>7.0</nota>
+  </row>
+</data>
